@@ -1,0 +1,33 @@
+/*Variables Globales */
+global.ipinterna      = String()
+global.cargardata     = false
+// global.mydb           = require('./database')
+// global.jsonSize       = require('json-size')
+global.fs             = require('fs'),
+global.la             = ['EDIT', 'DELETE']
+// global.request        = require('request')
+// global.utf8           = require('utf8')
+global.http_server    = require('http')
+global.http_socket    = require('http').createServer()
+// global.io             = require('socket.io')(http_socket)
+// global.moment         = require('moment')
+global._              = require('lodash')
+// global.turf           = require('@turf/turf')
+global.path           = require('path')
+// global.uuid           = require('uuid/v4')
+global.uid            = Object()
+global.notificaciones = Array() /*Listado De Alertas */
+// global.sgMail         = require('@sendgrid/mail')
+// global.base64Img      = require('base64-img')
+// global.validator      = require('validator')
+// global.jsonfile       = require('jsonfile')
+global.directorio     = path.join(__dirname)
+global.peticiones     = Array() /*Listado De Peticiones */
+global.list_reglas    = Array() /*Listado De Reglas  */
+global.list_session   = Array() /*Sessiones De Usuario*/
+global.list_socket    = Array() /*Sessiones De Socket*/
+global.list_enviados  = Array() /*Listado De Peticiones */
+global.canales        = Array()
+global.estadorndc     = true
+
+module.exports = "Correcto-> Cargado Variables Globales"
