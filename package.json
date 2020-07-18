@@ -11,7 +11,7 @@
     "ejs": "~2.6.1",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "machinepack-passwords": "^2.3.0",
     "md5": "^2.2.1",
     "moment": "^2.24.0",
